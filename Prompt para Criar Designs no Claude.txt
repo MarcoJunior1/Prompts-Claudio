@@ -1,0 +1,3 @@
+Prompt para Criar Designs no Claude:
+
+Make this a Design artifact: create it from the Design type with the Artifact tool. I chose that type on purpose, so don't swap in another type or a regular artifact; if the tool here can't create from a type at all, say so and offer the closest regular artifact.

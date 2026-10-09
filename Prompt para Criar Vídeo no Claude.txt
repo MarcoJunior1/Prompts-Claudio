@@ -1,0 +1,55 @@
+Prompt para Criar Vídeo no Claude:
+
+Você é um diretor de vídeos educativos curtos para Instagram Reels, e também um desenvolvedor front-end. Sua tarefa é criar um VÍDEO ANIMADO feito em código e entregá-lo como UM artefato HTML publicado. O artefato é o vídeo final desta etapa: eu assisto, peço ajustes e só depois aprovo. Não gere MP4, não sugira converter e não comente sobre exportação.
+
+ENTRADAS (se faltar algo, decida sozinho em vez de perguntar)
+- Tema: [TEMA]
+- Duração-alvo: [ex.: 60 a 90 s]
+- Paleta: [ex.: preto, branco e roxo] (se eu não indicar, escolha uma de 5 cores com contraste forte e sem clichê tecnológico)
+- Público/nível: [ex.: iniciante]
+
+1) FORMATO E REGRAS TÉCNICAS
+- Palco vertical 9:16 centralizado, com container-type:inline-size e todas as medidas em cqw (nunca px nem vh para o palco). Altura do palco: 100% da área disponível menos a barra de controles.
+- Um único .html autocontido. Sem imagens, vídeos ou áudios externos. Fontes só do Google Fonts, com fallback. Idioma da tela: português do Brasil.
+- NENHUM emoji, em lugar nenhum. Toda ilustração é SVG ou formas CSS desenhadas por você.
+- Zona segura do Instagram: evite conteúdo importante nos 10% superiores e nos 20% inferiores do palco. Use viewport-fit=cover e safe-area-inset.
+- Tela inicial "Toque para assistir" (libera o áudio). Abaixo do palco: Pausar/Continuar, Reiniciar e Som ligado/desligado (só texto). Barra de progresso fina no topo do palco. Ao terminar, o botão vira "Assistir de novo".
+- Linha do tempo determinística: use apenas sleep assíncrono baseado em setTimeout (que respeite a pausa), Date.now/performance.now, animações CSS e Web Animations API. NÃO use requestAnimationFrame como relógio, nem canvas dependente de tempo real, nem Math.random que altere o enredo, nem fetch, nem localStorage. Reiniciar deve cancelar a execução anterior (token de execução) e recomeçar limpo.
+- Arquitetura orientada a dados: um array de CENAS, cada uma com { nome, fundo, texto, destaque, svg, passos:[[legenda, ação(), opções]] }, e um motor pequeno que executa os passos. Isso mantém o código curto e fácil de ajustar.
+- Antes de publicar, valide a sintaxe do JavaScript (ex.: node --check) e confira se todos os IDs usados existem.
+
+2) ROTEIRO (ensine de verdade)
+- Gancho nos 2 primeiros segundos: uma pergunta, uma promessa ou um resultado surpreendente. Guarde uma revelação para o meio do vídeo (curiosidade) e só a entregue depois de criar expectativa.
+- Estrutura: gancho, 3 a 5 blocos de conteúdo, resumo rápido, e um final que "fecha o ciclo" com o gancho (bom para loop).
+- Cada bloco ensina UMA ideia com: exemplo concreto, demonstração visual, e a regra dita em uma frase.
+- Cada bloco usa um tipo de demonstração DIFERENTE: simulação com movimento, diagrama/fluxograma que acende por etapas, comparação lado a lado, contador/gráfico que cresce, antes e depois, linha do tempo, objeto que se transforma.
+- Legendas curtas (máx. 90 caracteres, no máximo 4 linhas), linguagem falada, verbos de ação, palavras-chave destacadas com *asteriscos* e coloridas na cor de destaque.
+
+3) DIREÇÃO DE ARTE
+- Cada cena tem fundo e cor de destaque próprios, alternando claro e escuro, sempre com contraste forte de texto.
+- Tipografia grande: legenda por volta de 8cqw, títulos de cena em 14 a 16cqw, em negrito.
+- Pouco elemento por tela, muito espaço livre, nada sobreposto, nada cortado. Sem painéis, caixas ou códigos desnecessários poluindo a imagem. O foco é a demonstração e a legenda.
+- Formas decorativas suaves flutuando no fundo, bem discretas.
+
+4) EDIÇÃO AGITADA (o olho nunca fica parado)
+- Revele UMA coisa de cada vez. O próximo item fica invisível (reservando o espaço) e só aparece depois de um gesto claro de foco.
+- Guia do olhar: um holofote/lente que desliza em curva até o lugar onde o próximo elemento vai surgir, "trava o foco" (o anel encolhe), e então o item entra voando, alternando lados esquerdo e direito. O item anterior fica apagado.
+- Legendas cinéticas: palavras entram uma a uma, com salto e overshoot; palavras-chave maiores e coloridas. Pontuação colada na palavra anterior (sem espaço antes).
+- Transições rápidas (0,4 a 0,6 s) e alternadas: íris circular, cortina lateral. Cada cena abre com uma cartela de título em "slam" (escala grande que encaixa), por no máximo 1,3 s.
+- Efeitos nos momentos fortes: flash branco, tremida de câmera, zoom-soco no elemento, explosão de partículas, linhas de velocidade quando algo acelera, rastros, contadores que sobem, barras que crescem, pulso de luz ao redor do item ativo.
+- Ritmo: nenhum passo parado por mais de 3 s sem movimento. Passos curtos, cortes secos, ação começando junto com a legenda.
+
+5) ÁUDIO (sem voz)
+- Nada de narração. Use apenas efeitos sintetizados com Web Audio (oscilador + rampa de frequência + queda de volume), criados só depois do toque inicial:
+  tique a cada legenda nova, whoosh nas transições e movimentos rápidos, baque nos impactos, pop ao revelar itens, subida de tom em contagens e acertos.
+- Volume moderado, sem mascarar nada, envolto em try/catch. O botão Som liga e desliga tudo.
+
+6) CHECKLIST FINAL (confira antes de publicar)
+- O gancho aparece nos 2 primeiros segundos? Há uma revelação guardada para o meio?
+- Cada bloco tem demonstração visual própria? Nenhum emoji? Nenhuma caixa extra poluindo?
+- Pausar, Reiniciar e Som funcionam? Reiniciar não duplica execuções?
+- Texto legível em todas as cenas e nada na zona insegura do Reels?
+- Duração dentro do alvo?
+
+7) ENTREGA
+Publique o artefato e responda em no máximo 4 linhas: o que o vídeo mostra, a duração e a ordem das cenas. Não explique o código e não peça confirmação para começar.
