@@ -1,0 +1,33 @@
+Você vai me ajudar a conseguir INDICAÇÃO para vagas de emprego, usando o meu navegador. Siga as etapas na ordem e pare sempre que eu mandar esperar.
+
+MEU CONTEXTO
+- Meu currículo: [cole aqui o texto do currículo, ou diga em qual aba ele está aberto]
+- Cargo que eu quero: [ex.: analista de dados júnior]
+- Cidade ou remoto: [ex.: São Paulo ou remoto]
+- O que eu NÃO quero: [ex.: estágio, empresa X, presencial fora da minha cidade]
+
+ETAPA 1 · LER O CURRÍCULO
+Leia o meu currículo e me devolva em 5 linhas: o que eu faço, os meus 3 pontos mais fortes com prova (número, projeto ou resultado) e o cargo que mais combina comigo. Espere eu confirmar.
+
+ETAPA 2 · ACHAR AS VAGAS
+No LinkedIn Vagas, procure vagas abertas que combinem com esse resumo, publicadas nos últimos 14 dias. Me traga no máximo 10, numa tabela: empresa, cargo, link, por que combina comigo (1 linha) e o que me falta (1 linha). Não se candidate a nada. Espere eu escolher as vagas.
+
+ETAPA 3 · ACHAR QUEM TRABALHA LÁ
+Para cada vaga que eu escolher, procure no LinkedIn de 2 a 3 pessoas que trabalham nessa empresa, de preferência na mesma área da vaga (não o CEO e não o recrutador, a não ser que eu peça). Prefira quem tem algo em comum comigo: mesma faculdade, mesma cidade, mesma empresa anterior ou conexão em comum. Me traga numa tabela: nome, cargo, link do perfil e o ponto em comum. Não clique em Conectar e não envie nada. Espere eu escolher as pessoas.
+
+ETAPA 4 · ESCREVER O OI (SÓ RASCUNHO)
+Para cada pessoa que eu aprovar, escreva uma nota de convite com MENOS DE 200 CARACTERES e mostre a contagem. Regras: cite o ponto em comum ou algo específico do trabalho dela; diga em 1 frase o que eu faço; termine com uma pergunta leve. Sem implorar, sem dizer que estou desesperado, sem pedir emprego e sem pedir indicação nesta etapa. Sem travessão e sem emoji.
+
+ETAPA 5 · PEDIR 10 MINUTOS (SÓ RASCUNHO)
+Para quem aceitar o convite, escreva uma mensagem curta pedindo 10 minutos de conversa sobre como é trabalhar lá e o que o time valoriza. Ofereça 2 opções de horário. Ainda sem pedir indicação.
+
+ETAPA 6 · PEDIR A INDICAÇÃO (SÓ RASCUNHO)
+Só depois da conversa (eu aviso quando ela acontecer), escreva o pedido de indicação: agradeça algo específico da conversa, cite a vaga com o link, diga em 1 frase por que eu encaixo e deixe a pessoa livre para dizer não. Ofereça mandar um resumo de 3 linhas que ela possa encaminhar.
+
+TRAVAS (VALEM PARA TODAS AS ETAPAS)
+1. NUNCA envie convite, mensagem, candidatura ou e-mail sem eu aprovar AQUELE texto para AQUELA pessoa. Mostre o rascunho e pare. Só envie depois que eu responder "aprovado: [nome da pessoa]". Se eu disser "eu envio", apenas cole o texto e deixe o clique em Enviar para mim.
+2. No máximo 10 convites por dia, somando tudo. Mostre um contador ("hoje: 3 de 10") e pare quando chegar a 10, mesmo que eu peça mais.
+3. Uma pessoa por vez. Nada de envio em massa e nada de copiar a mesma mensagem para várias pessoas.
+4. Antes de cada envio, me diga quem é a pessoa, onde ela trabalha e se ela pode ter vínculo pessoal comigo (parente, ex, família de alguém próximo). Na dúvida, pule a pessoa.
+5. Se o LinkedIn mostrar aviso, verificação, captcha ou limite, pare tudo e me avise. Não tente contornar.
+6. Não invente nada sobre mim. Use só o que está no meu currículo.
